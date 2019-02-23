@@ -1,0 +1,1 @@
+DELETE Products WHERE Products.ID = @id
