@@ -30,6 +30,7 @@ namespace TestCore
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<OrderRepository>();
             services.AddTransient<ProductRepository>();
+            services.AddTransient<CustomerRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
